@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8">
+    <meta hhtp-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maratonista.pl</title>
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merienda:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext " rel="stylesheet ">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="header">
+            
+                <div id="small_logo" style="float:left; font-family: Merienda; ">
+                    Maratonista.pl
+                </div>
+                <button id="log_in" style="float:right;">
+                    Logowanie
+                </button>
+                <button id ="sign_in" style="float:right;">
+                    Rejestracja
+                </button>
+                <div style="clear:both;"></div>
+            
+        </div>
+        <div id="welcome-page">
+            <div class="logo"><span style="font-size: 48px;">Maratonista</span>.pl</div>
+            <div style="clear:both;"></div>
+        </div>
+
+        
+            <div class=najblizsze_biegi>
+                Najbli¿sze biegi:
+            </div>
+
+            <div class="bieg_info">
+                <div class="nazwa">
+                    Nazwa
+                </div>
+                <div class="dystans">
+                    Dystans
+                </div>
+                <div class="lokalizacja">
+                    Lokalizacja
+                </div>
+                <div class="data">
+                    Data
+                </div>
+                <div class="timer">
+                    Timer
+                </div>
+                
+            
+            <div style="clear:both;"></div>
+            <div bieg_1>
+                <div class="nazwa">
+                    Nazwa
+                </div>
+                <div class="dystans">
+                    Dystans
+                </div>
+                <div class="lokalizacja">
+                    Lokalizacja
+                </div>
+                <div class="data">
+                    Data
+                </div>
+                <div class="timer">
+                    Timer
+                </div>
+            </div>
+        </div>
+            <div class="bieg_info3">
+                aaaaaaaaaaaaaaafs sfd s
+            </div>
+        
+    </div>
+        <div class="footer">
+
+        </div>
+    </div>
+
+</body>
+
+</html>

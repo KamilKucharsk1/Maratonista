@@ -1,0 +1,149 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 !important;
+    overflow: hidden;
+}
+
+
+#wrapper {
+    width: 100%;
+    
+}
+
+
+#header{
+    width: 100%;
+    background-color: gray;
+    height: 35px;
+    animation: show 1s ease-in-out 1.5s forwards;
+  opacity: 0;
+  margin-top: 100px;
+  font-size: 16px;
+}
+
+
+#log_in{
+    padding: 10px;
+}
+
+#sign_in{
+    padding: 10px;
+}
+
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    /*text-align: center;*/
+    font-family: 'Merienda', cursive;
+    padding: 220px 0px;
+    text-shadow: 0 4px 0 rgba(0, 0, 0, 0.17);
+    animation: show 1s ease-in-out 1s forwards;
+  opacity: 0;
+  margin-top: 100px;
+
+}
+
+
+#welcome-page{
+    background-image: url("./images/topography.svg"),
+    linear-gradient(110deg, #927b80, #53c265);
+      /*background-attachment: fixed;*/
+      animation: show 1s ease-in-out 1.5s forwards;
+  opacity: 0;
+  margin-top: 100px;
+
+}
+
+
+.najblizsze_biegi{
+    padding: 20px;
+    animation: show 1s ease-in-out 1.5s forwards;
+  opacity: 0;
+  margin-top: 100px;
+}
+
+.header_small{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    border-radius: 20px;
+    background-color: rgb(127, 127, 214);
+    font-weight: bold;
+    
+}
+
+.bieg_info{
+    width: 50%;
+    display: grid;
+    grid-gap: 20px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    animation: show 1s ease-in-out 2s forwards;
+  opacity: 0;
+  margin-top: 100px;
+
+
+}
+
+.bieg_1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.bieg_2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.bieg_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+@keyframes show {
+  0% {
+    margin-top: 100px;
+    opacity: 0;
+  }
+  100% {
+    margin-top: 0px;
+    opacity: 1;
+  }
+}
+
+.log_in {
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.6s;
+    height: 35px;
+    background-color: #9cdfa7
+}
+
+.log_in:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.sign_in {
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.6s;
+    height: 35px;
+    background-color: #9cdfa7
+}
+
+.sign_in:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+
+.footer{
+
+}
