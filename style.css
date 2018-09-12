@@ -1,14 +1,24 @@
+html{
+    height: 100%;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+
 body {
     font-family: 'Lato', sans-serif;
     font-size: 24px;
     text-align: center;
     margin: 0 !important;
-    overflow: hidden;
+    overflow: x-hidden;
 }
 
 
 #wrapper {
     width: 100%;
+    height: 100vh;
     
 }
 
@@ -17,7 +27,7 @@ body {
     width: 100%;
     background-color: gray;
     height: 35px;
-    animation: show 1s ease-in-out 1.5s forwards;
+    animation: show ease-in-out 1.5s forwards;
   opacity: 0;
   margin-top: 100px;
   font-size: 16px;
@@ -40,7 +50,7 @@ body {
     font-family: 'Merienda', cursive;
     padding: 220px 0px;
     text-shadow: 0 4px 0 rgba(0, 0, 0, 0.17);
-    animation: show 1s ease-in-out 1s forwards;
+    animation: show ease-in-out 1s forwards;
   opacity: 0;
   margin-top: 100px;
 
@@ -51,7 +61,7 @@ body {
     background-image: url("./images/topography.svg"),
     linear-gradient(110deg, #927b80, #53c265);
       /*background-attachment: fixed;*/
-      animation: show 1s ease-in-out 1.5s forwards;
+      animation: show ease-in-out 1.5s forwards;
   opacity: 0;
   margin-top: 100px;
 
@@ -60,7 +70,7 @@ body {
 
 .najblizsze_biegi{
     padding: 20px;
-    animation: show 1s ease-in-out 1.5s forwards;
+    animation: show ease-in-out 1.5s forwards;
   opacity: 0;
   margin-top: 100px;
 }
@@ -83,28 +93,28 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-size: 16px;
-    animation: show 1s ease-in-out 2s forwards;
+    animation: show ease-in-out 2s forwards;
   opacity: 0;
   margin-top: 100px;
-
+    text-align: center;
 
 }
 
 .bieg_1{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 20px;
 }
 
 .bieg_2{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 20px;
 }
 
 .bieg_3{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 20px;
 }
 
@@ -144,6 +154,73 @@ body {
 }
 
 
-.footer{
 
+#page-main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(143, 226, 143);
+    height: 97vh;
+}
+
+
+#menu_container{
+    padding-top: 100px;
+}
+
+#items{
+    width: 60vw;
+    display: grid;
+    gap: 1vw;
+    grid-template-columns: 24vw 24vw;
+    grid-template-rows: 26vh 26vh;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    
+}
+
+#items >*{
+    
+    background-color: purple;
+    justify-items: center;
+    transition: all 0.2s ease-in-out;
+    padding-top: 10vh;/* <----- Zrób coś z tym*/
+}
+
+#items>*:hover{
+    
+    filter: brightness(120%);
+    
+}
+
+
+.menu_aktualnosci:hover{
+    transform: skewX(15deg);
+    transform: skewY(5deg);
+    transform: skew(4deg, 2deg);
+}
+
+
+.menu_biegi:hover{
+    transform: skewX(-15deg);
+    transform: skewY(-5deg);
+    transform: skew(-4deg, -2deg);
+}
+
+.menu_treningi:hover{
+    transform: skewX(-15deg);
+    transform: skewY(-5deg);
+    transform: skew(-4deg, -2deg);
+}
+
+.menu_zorganizuj_transport:hover{
+    transform: skewX(15deg);
+    transform: skewY(5deg);
+    transform: skew(4deg, 2deg);
+}
+
+.footer{
+    height: 3vh;
+    background-color: purple;
+    font-size: 2vh;
 }
